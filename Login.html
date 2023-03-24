@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>LOGIN</h1>
+   <h6>Enter the details to move to the Booking page</h6>
+   <article class="credentials">
+<div class="form">
+<label for="Username"> Username</label>
+<input type="text" width="30ch" height="1rem" required>
+</div>
+<br><br><br>
+<div class="form">
+    <label for="password">Password</label>
+    <input type="password" width="30ch" height="1rem" required>
+
+</div>
+<br><br><br>
+<div class="submit"><a href="MainMenu.html"><button>LogIn</button></a></div>
+</article>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    
+    
+}
+h1{
+    background-color: black;
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.head{
+    font-size: 2rem;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.credentials{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+    padding:5rem;
+    margin: 1rem;
+}
+h6{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.submit button{
+    font-size: 1rem;
+    padding:0.25rem;
+    background-color:white;
+    color: black;
+    }
+.submit button:hover{
+    color: black;
+    font-size: 1.25rem;
+    background-color:whitesmoke;
+    padding:0.30rem;
+    border-radius: 2rem;
+}
+.form{
+    font-size: 2rem;
+    font-family: 'Poppins'; 
+    color:black;
+    font-weight: 800;
+    border-radius: 2rem;
+}
+input{
+    margin-left: 1rem;
+}</style>
+</body>
+</html>

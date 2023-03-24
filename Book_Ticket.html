@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticket Booking Site</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<header>
+		<h1>Ticket Booking Site</h1>
+
+		
+	</header>
+
+	<main>
+		<section id="ticket-booking">
+			<h2>Book your ticket</h2>
+			<form action="seat.html">
+				<label for="from">From</label>
+				<input type="text" id="from" name="from">
+
+				<label for="to">To</label>
+				<input type="text" id="to" name="to">
+
+				<label for="date">Date</label>
+				<input type="date" id="date" name="date">
+
+				<label for="class">Class</label>
+				<select id="class" name="class">
+					<option value="economy">Economy</option>
+					<option value="business">Business</option>
+					<option value="first">First Class</option>
+				</select>
+
+				<a href="MainMenu.html"><button type="submit">Book Now</button></a>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Ticket Booking Site</p>
+	</footer>
+<style>
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+#ticket-booking {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#ticket-booking h2 {
+	margin-top: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input, select {
+	padding: 10px;
+	margin-top: 5px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+	background-color: #fff;
+	color: #333;
+}
+<\style>
+</body>
+</html>
